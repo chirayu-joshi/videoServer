@@ -1,0 +1,12 @@
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+
+#login-column {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}

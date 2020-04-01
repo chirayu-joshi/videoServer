@@ -1,0 +1,35 @@
+{
+  "name": "video-server",
+  "version": "1.0.0",
+  "description": "server for accepting and sharing RESTful APIs",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "media",
+    "server",
+    "video",
+    "node",
+    "js",
+    "node.js",
+    "rest",
+    "api"
+  ],
+  "author": "chirayu-joshi",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
+  }
+}

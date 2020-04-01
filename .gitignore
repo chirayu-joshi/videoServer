@@ -1,0 +1,12 @@
+/client/node_modules
+/server/node_modules
+
+client/.pnp
+client/coverage
+client/build
+
+server/media/uploads/*
+!server/media/uploads/.gitkeep
+
+server/media/uploads/video_thumbnails/*
+!server/media/uploads/video_thumbnails/*
