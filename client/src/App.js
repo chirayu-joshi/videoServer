@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
+
 import Dashboard from './components/Dashboard/Dashboard';
 import VideoPlayer from './components/VideoPlayer/VideoPlayer';
 import Upload from './components/Upload/Upload';
@@ -19,6 +20,5 @@ function App() {
     </React.Fragment>
   );
 }
-
 
 export default App;

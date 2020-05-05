@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import { Redirect } from 'react-router-dom';
 
 import videojs from 'video.js';
 import './videojs.css';
@@ -49,6 +50,7 @@ class VideoPlayer extends React.Component {
   }
 
   render() {
+    if (!localStorage.getItem('userTokenTime')) return <Redirect to="/signIn" />
     return (
       <React.Fragment>
         <Navbar />

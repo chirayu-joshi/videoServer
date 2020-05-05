@@ -93,12 +93,12 @@ class Upload extends React.Component {
                 onChange={this.fileChangeHandler.bind(this)} />
               <Progress max="100" color="success" value={this.state.loaded} className="mt-4 mb-1">
                 {isNaN(Math.round(this.state.loaded, 2)) ? 0 : Math.round(this.state.loaded, 2)}%
-            </Progress>
+              </Progress>
               <button
                 type="button"
                 className="btn btn-success btn-block"
                 onClick={this.fileUploadHandler.bind(this)}>Upload Video
-            </button>
+              </button>
             </div>
           </form>
         </div>

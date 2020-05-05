@@ -88,7 +88,7 @@ class SignIn extends React.Component {
         </div>
         <div className="d-flex justify-content-between align-items-end">
           <button onClick={this.onSubmitHandler} className="btn btn-info btn-md" type="button">Submit</button>
-          <Link to="/signIn" className="text-info">Sign Up here</Link>
+          <Link to="/signUp" className="text-info">Sign Up here</Link>
         </div>
       </Form>
     );

@@ -18,7 +18,7 @@ $ npm start
 
 
 #### For tutorial, watch my Youtube Video:
-[Link](https://youtube.com/)
+[Link](https://youtu.be/PS4C2snld1s)
 
 
 ### If you found this project helpful, 
